@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { InitialGreeting } from './components/InitialGreeting';
 import { EnvelopeButton } from './components/EnvelopeButton';
 import { BirthdayMessage } from './components/BirthdayMessage';
@@ -14,16 +14,20 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  const message = `My dearest love,
+  const message = `ถึงอ้วนสุดที่รัก🌻,
 
-Every moment with you makes life more beautiful than all the sunflowers in the world. Your smile brightens my days, and your love gives meaning to every breath I take.
+  วันนี้เป็นวันที่อ้วนโตขึ้นอีกปีละน้าาา 
+  ขอให้อ้วนมีฟามสุขมั่กๆกินอิ่มนอนหลับบ 
+  สุขภาพเเข็งเเรงๆ สมหวังทุกๆเรื่องเลย 
+  อ้วนมีอะไรไม่สบายใจเค้าพร้อมอยู่ข้างๆตะเหมออ
+  เค้าดีใจที่ได้เจออ้วนนน้า ช่วงเวลาที่เราใช้ร่วมกัน
+  มันมีความหมายสำหรับเค้ามาก
+  ขอให้เราคบกันนานๆในทุกช่วงของชีวิต 
+  ทั้งสุขเเละทุกข์เราจะผ่านไปด้วยกันน 
+  อยู่กับเค้าไปนานๆนะะ 
 
-On your special day, I want you to know that you're the most precious gift I could ever ask for. You make every day feel like a celebration just by being you.
-
-Happy Birthday, my love! 🌻
-
-With all my heart,
-[Your Name]`;
+เค้ารักอ้วนน้าา,
+[ภูวววว]`;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-yellow-100 flex items-center justify-center">
